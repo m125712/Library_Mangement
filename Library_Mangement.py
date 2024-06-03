@@ -53,7 +53,6 @@ def main():
   
   book1 = Book("The Lord of the Rings", "J.R.R. Tolkien", "9780261102694", 25.99)
   book2 = Book("Pride and Prejudice", "Jane Austen", "9780140439516", 14.95)
-  book3 = Book("Pride and Prejudice", "Jane Austen", "9780140439516", 14.95)
   library.add_book(book1)
   library.add_book(book2)
 
