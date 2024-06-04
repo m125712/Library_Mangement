@@ -33,7 +33,9 @@ class Member:
     @property
     def ID(self):
         return self.__ID
-
+    @property
+    def name(self):
+        return self.__name
     @property
     def age(self):
         return self.__age
@@ -113,10 +115,11 @@ def main():
     member2 = Member(456, "Bob Jones", 25, "bob.jones@email.com")
     library.add_member(member1)
     library.add_member(member2)
-    library.borrow_book(123, "9780261102694")
+    
  
  
     library.show_all_books()
+    library.borrow_book(123, "9780261102694")
     library.return_book(123, "9780261102694") 
 
  
