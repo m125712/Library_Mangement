@@ -1,4 +1,4 @@
-<p>This Python code implements a simple library management system that allows you to:</p>
+<p>This Python code implements a simple library management system that allows to:</p>
 <ul>
 <li>Create and manage books (title, author, ISBN, price)</li>
 <li>Create and manage library members (ID, name, age, email)</li>
